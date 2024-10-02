@@ -14,7 +14,7 @@
 
 ## Step by Step implementation
 
-Refer ![Visualizing_vector_embeddings.ipynb](Visualizing_vector_embeddings.ipynb)
+Refer Visualizing_vector_embeddings.ipynb
 
 ## License
 - This library is licensed under the MIT-0 License. See the LICENSE file.
