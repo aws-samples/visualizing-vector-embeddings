@@ -1,17 +1,18 @@
-## My Project
+# Visualizing Vector Embeddings
 
-TODO: Fill this README out!
 
-Be sure to:
 
-* Change the title in this README
-* Edit your repository description on GitHub
+## Solution Overview
 
-## Security
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+- Prepare a sample dataset with product categories.
+- Generate vector embedding of product description using Amazon Bedrock's foundation model 'amazon.titan-embed-text-v1'.  
+- Store product data including vector embeddings into Amazon PostgreSQL vector store.
+- Import libraries for PCA (Principal Component Analysis).
+- Convert high dimensional vector embeddings into 3 dimensional embeddings using PCA.
+- Generate scattered graph for this 3-dimensional embeddings and visualize semantic similarities in the data.
 
 ## License
+- This library is licensed under the MIT-0 License. See the LICENSE file.
 
-This library is licensed under the MIT-0 License. See the LICENSE file.
 
